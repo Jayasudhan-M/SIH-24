@@ -1,0 +1,80 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+  justify-content: space-between; /* Space between logo and button */
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative; /* To position the logo absolutely */
+}
+
+.navbar-logo {
+  height: 40px;
+  position: absolute; /* Position the logo absolutely */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for actual center alignment */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1; /* Allows links to take up remaining space */
+  justify-content: center;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1em;
+}
+
+.navbar-links a:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+.connect-wallet {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left: auto; /* Push the button to the right */
+  transition: background-color 0.3s ease;
+}
+
+.connect-wallet:hover {
+  background-color: #e7e7e7;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+  }
+
+  .navbar-links a {
+    padding: 10px;
+  }
+
+  .connect-wallet {
+    margin-top: 10px;
+    margin-left: 0; /* Reset margin-left on small screens */
+  }
+}

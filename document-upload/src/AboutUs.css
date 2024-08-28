@@ -1,0 +1,39 @@
+.about-us {
+    padding: 20px;
+    text-align: left; /* Align text to the right */
+    background-color: #222; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    font-size: 20px;
+  }
+  
+  .about-us h2 {
+    margin-bottom: 15px;
+    color: #007bff; /* Blue color for headings */
+    text-align: right; /* Align heading to the left */
+    font-size:100px;
+    padding-right: 100px;
+  }
+  
+  .about-us p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 20px;
+    padding:20px;
+
+  }
+  
+  .about-us ul {
+    margin-top: 10px;
+    padding-left: 0; /* Remove padding */
+    list-style-type: none; /* Remove bullet points */
+    font-size: 40px;
+    padding:50px;
+
+  }
+  
+  .about-us li {
+    margin-bottom: 5px; /* Adjust margin for list items */
+    font-size: 20px;
+
+  }
+  

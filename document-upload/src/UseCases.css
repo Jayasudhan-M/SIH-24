@@ -1,0 +1,64 @@
+/* Use Cases Section */
+.use-cases {
+  padding: 40px;
+  text-align: left;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 20px;
+}
+
+.use-cases h2 {
+  margin-bottom: 15px;
+  color: #000000;
+  text-align: left;
+  font-size: 100px;
+  padding-left: 100px;
+}
+
+.use-cases p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 25px;
+  padding: 50px;
+}
+
+.use-cases ul {
+  margin-top: 10px;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.use-cases li {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .use-cases {
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .use-cases h2 {
+    font-size: 40px;
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .use-cases p {
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  .use-cases ul {
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  .use-cases li {
+    font-size: 16px;
+  }
+}

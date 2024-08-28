@@ -1,0 +1,67 @@
+/* Blockchain Technique Section */
+.blockchain-technique {
+  padding: 20px;
+  text-align: left;
+  background-color: #222;
+  color: #f0f0f0;
+  font-size: 20px;
+}
+
+.blockchain-technique h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+  text-align: right;
+  font-size: 100px;
+  padding-right: 100px;
+}
+
+.blockchain-technique p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 25px;
+  padding: 50px;
+}
+
+.blockchain-technique ul {
+  margin-top: 10px;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.blockchain-technique li {
+  margin-bottom: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blockchain-technique {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .blockchain-technique h2 {
+    font-size: 40px;
+    padding-right: 0;
+    text-align: center;
+  }
+  
+  .blockchain-technique p {
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  .blockchain-technique ul {
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  .blockchain-technique li {
+    font-size: 14px;
+  }
+  
+}
